@@ -1,0 +1,121 @@
+html,body{
+    margin: 0;
+    paddin: 0;
+    width: 100%;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    height: 100%;
+    background-color: #DCDCDC;
+}
+
+.divGeral{
+    position: absolute;
+    left: 370px;
+    top: 130px;
+    background-color: #D3D3D3;
+    padding: 36px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.divGeral fieldset{
+    border-radius: 40px;
+    padding: 30px;
+}
+
+.divGeral legend{
+    font-size: 30px;
+}
+
+.divBtn{
+    position: absolute;
+    left: 280px;
+    top: 96px;
+    margin: auto;
+}
+
+.divBtn input{
+    padding: 6px;
+    font-weight: bold;
+}
+
+.divGeral #btnId{
+    position: absolute;
+    left: 470px;
+    top: 94px;
+    width: 80px;
+    height: 30px;
+}
+
+.divGeral p{
+    position: absolute;
+    left: 440px;
+    top: 80px;
+    font-size: 20px;
+}
+
+#logoTipo{
+    position: absolute;
+    left: 835px;
+    top: 260px;
+    width: 90px;
+}
+
+h1{
+    position: absolute;
+    left: 28%;
+    top: 100px;
+    background-color: #C0C0C0;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+#Link1{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: #C0C0C0;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#logoTipo2{
+    position: absolute;
+    left: 1105px;
+    top: 360px;
+    width: 200px;
+}
+
+table{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    font-weight: bold;
+    background-color: #C0C0C0;
+    text-align: center;
+}
+
+#LegendaLista{
+    position: absolute;
+    left: 576px;
+    top: 160px;
+    font-weight: bold;
+    font-size: 30px
+}
+
+#logoTipo3{
+    position: absolute;
+    left: 1105px;
+    top: 0px;
+    width: 200px;
+}
+
+
+
+

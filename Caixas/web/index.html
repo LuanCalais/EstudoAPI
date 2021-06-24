@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Gerenciamento por API</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <div class="divGeral">
+            <form id="FGerenciador" method="POST" action="ControleCaixas">
+                <fieldset>
+
+                    <legend>Gerenciador de Caixas usando API</legend>
+                    Descrição:<br> <input type="text" maxlength="50" name="txtDescricao"><br>
+                    Quantidade:<br> <input type="number" name="txtQuantidade"><br>
+                    Responsável: <br> <input type="text" maxlength="30" name="txtResponsavel"><br>
+
+                    <p>Id:</p><input id="btnId" type="number" name="txtId">
+
+                    <div class="divBtn">
+                        <input type="submit" value="Cadastrar" name="Confirma"><br>
+                        <input type="submit" value="Alterar" name="Confirma"><br>
+                        <input type="submit" value="Listar" name="Confirma"><br>
+                        <input type="submit" value="Listar Id" name="Confirma"><br>
+                        <input type="submit" value="Deletar" name="Confirma">
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+
+        <img id="logoTipo" src="Imagens/DSaaS_Logotipo.png">
+
+    </body>
+</html>
